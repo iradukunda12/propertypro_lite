@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto&family=Vidaloka&display=swap');
+.form .form-group {
+    margin: 1.2rem 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.text-primary {
+    color: black;
+}
+
+.large {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+.container {
+    max-width: 1100px;
+    top: 200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -78px;
+    border-radius: 20px;
+
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+   
+    
+   
+}
+.form input[type='text'], .form input[type='email'], .form input[type='password'], .form input[type='date'], .form input[type='file'], .form select, .form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+}
+
+input[type="submit" i] {
+    display: inline-block;
+    background:#f4f4f4;
+    color: #333;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+    background: #6f42c1;
+    color: #fff;
+    margin-top: 20px;
+    margin: 1rem 0;
+}
+.btn-light, .bg-light, .badge-light, .alert-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.btn {
+    display: inline-block;
+    background: #f4f4f4;
+    color: #333;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+    text-decoration: none;
+}
+.my-1 {
+    margin: 1rem 0;
+}
+.header{
+    width: 80vw;
+    height:120px;
+    margin: 2% auto;
+    margin-left: 20px;
+    top: -80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'playfair Display','serif';
+    
+    
+}
+.di{
+    text-decoration: none;
+}
+.di:hover{
+    background-color: #fff;
+}
+
+.nlinks {
+    text-decoration: none;
+    padding: 24px;
+    color:#000 ;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    left: -40px;
+    
+    }
+    .nlinks :hover{
+        background-color: deeppink;
+    }
+   
